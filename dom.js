@@ -15,6 +15,16 @@ console.log(document.links);
 */
 
 // GetElementById
-console.log(document.getElementById("header-title"));
+//console.log(document.getElementById("header-title"));
+let headerTitle = document.getElementById("header-title");
+headerTitle.textContent = "Hello";
+headerTitle.innerText = "Goodbye";
+/**
+ * textContent is the actual content of the element
+ * innerText is the visible content of the element
+ * The difference is that textContent will return the content of all child elements and innerText will not
+ */
+
+
 
 
